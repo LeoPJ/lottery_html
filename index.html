@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>公司年会抽奖</title>
+
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./animate.css">
+
+<script src="./jquery.min.js"></script>
+<script src="./common.js"></script>
+<script src="./index.js"></script>
+
+</head>
+<body style="">
+
+<div>
+
+	<header>
+		<div></div>
+	</header>
+	<section>
+		<div class="hide" id="luckyDrawing"><input id="showName" readonly="" type="text"></div>
+		<div class="hide" id="result">
+			<div></div>
+		</div>
+	</section>
+	<footer>
+		<div>
+			<input type="number" hidden id="txtNum" value="" placeholder="请输入中奖人数">
+			<button id="btnStart">一等奖</button>
+			<button id="btnStartTwo">二等奖</button>
+			<button id="btnStartThree">三等奖</button>
+			<button id="btnStartPart">参与奖</button>
+			<button id="btnStartWin">中奖名单</button>
+			<button id="btnReset">&nbsp;</button>
+		</div>
+	</footer>
+
+</div>
+
+<div id="bgLuckyDrawEnd"></div>
+
+<div id="iconDiv" class="animated fadeIn">
+	<span class="animated swing"><img src="./img/01.png"> </span>
+	<span class="animated rubberBand"><img src="./img/02.png"> </span>
+	<span class="animated swing"><img src="./img/03.png"> </span>
+	<span class="animated undefined"><img src="./img/04.png"> </span>
+	<span class="animated undefined"><img src="./img/05.png"> </span>
+	<span class="animated wobble"><img src="./img/06.png"> </span>
+</div>
+
+
+</body></html>
